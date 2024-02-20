@@ -14,7 +14,6 @@ as IC Converter to RS485
 as Isolated data
 - Terminal Block 3.81mm
 - Terminal Block Power 5V
-- SD 
 ## Preview Hardware
 <p align="center">
 
