@@ -65,12 +65,17 @@ Confirm connector orientation against the silkscreen and pinout image before wir
 | Eagle schematic | [`PCB-EAGLE/IndustrialUSBtoModbus.sch`](PCB-EAGLE/IndustrialUSBtoModbus.sch) |
 | Eagle board | [`PCB-EAGLE/IndustrialUSBtoModbus.brd`](PCB-EAGLE/IndustrialUSBtoModbus.brd) |
 | Manufacturing Gerbers | [`CAD-CAM/Gerber.zip`](CAD-CAM/Gerber.zip) |
+| Production PCB | [`PCB-EAGLE/IndustrialUSBtoModbus_Production.brd`](PCB-EAGLE/IndustrialUSBtoModbus_Production.brd) |
+| Production Gerbers | [`CAD-CAM/Gerber_Production.zip`](CAD-CAM/Gerber_Production.zip) |
+| Production CAM job | [`CAD-CAM/IndustrialUSBtoModbus v2.cam`](CAD-CAM/IndustrialUSBtoModbus%20v2.cam) |
 | Board dimensions | [`DOC/Dimension.pdf`](DOC/Dimension.pdf) |
 | STEP model | [`3D/IndustrialUSBtoModbus.step`](3D/IndustrialUSBtoModbus.step) |
 | Enclosure models | [`3D/Case/`](3D/Case/) |
 | Custom Eagle libraries | [`PCB-EAGLE/lib/`](PCB-EAGLE/lib/) |
 
 Detailed documentation is in [`docs/`](docs/).
+
+For manufacturing, use the files marked **Production**. The production Gerber archive contains Gerber, drill, solder-paste, pick-and-place, job, and ODB++ outputs generated from the production PCB revision.
 
 ## Important Limitations
 

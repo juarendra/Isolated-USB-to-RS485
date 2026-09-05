@@ -11,6 +11,18 @@
 | `3D/` | Board, enclosure, and mechanical models |
 | `docs/` | Product, hardware, buyer, and validation documentation |
 
+## Production Outputs
+
+Use these files for the current manufacturing package:
+
+| Output | Location |
+|---|---|
+| Production Eagle board | [`PCB-EAGLE/IndustrialUSBtoModbus_Production.brd`](../PCB-EAGLE/IndustrialUSBtoModbus_Production.brd) |
+| Production Gerber/ODB++ archive | [`CAD-CAM/Gerber_Production.zip`](../CAD-CAM/Gerber_Production.zip) |
+| Production CAM job | [`CAD-CAM/IndustrialUSBtoModbus v2.cam`](../CAD-CAM/IndustrialUSBtoModbus%20v2.cam) |
+
+The production archive includes copper, solder mask, solder paste, silkscreen, board profile, drill, job, ODB++ data, and front-side pick-and-place output. Confirm the PCB revision and fabrication house rules before ordering.
+
 ## Naming Convention
 
 New files should use:
