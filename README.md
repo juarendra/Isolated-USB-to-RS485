@@ -3,7 +3,7 @@
 USB Type-C to isolated half-duplex RS485 interface for Modbus RTU and other UART-based industrial networks.
 
 <p align="center">
-  <img src="DOC/HARDWARE/Feature.png" alt="Industrial USB to RS485 adapter features" width="85%">
+  <img src="DOC/HARDWARE/Isometric%20View%201.png" alt="Industrial USB to RS485 adapter isometric view" width="70%">
 </p>
 
 ## Product Summary
@@ -31,6 +31,10 @@ The design files are provided for evaluation, manufacturing, and integration. Re
 - Resettable USB input protection
 - Separate isolated 5 V output connector
 - Eagle schematic, board, libraries, Gerber archive, 3D model, and enclosure files
+
+<p align="center">
+  <img src="DOC/HARDWARE/Feature.png" alt="Industrial USB to RS485 adapter feature overview" width="85%">
+</p>
 
 ## Quick Start
 
