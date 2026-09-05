@@ -86,6 +86,7 @@ Before purchasing or manufacturing, review:
 - [`docs/BUYER-GUIDE.md`](docs/BUYER-GUIDE.md) for compatibility and ordering checks
 - [`docs/HARDWARE.md`](docs/HARDWARE.md) for circuit behavior and configuration
 - [`docs/VALIDATION.md`](docs/VALIDATION.md) for required production tests
+- [`docs/FTDI-PROGRAMMING.md`](docs/FTDI-PROGRAMMING.md) for FT231XS production programming
 - [`docs/FILES.md`](docs/FILES.md) for the complete repository map
 
 ## License

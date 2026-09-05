@@ -7,6 +7,7 @@ Use these pages when evaluating, buying, assembling, or integrating the adapter.
 | [`BUYER-GUIDE.md`](BUYER-GUIDE.md) | Compatibility, ordering, wiring, and acceptance checks |
 | [`HARDWARE.md`](HARDWARE.md) | Signal path, power domains, protection, and switches |
 | [`VALIDATION.md`](VALIDATION.md) | Electrical, functional, protection, and environmental tests |
+| [`FTDI-PROGRAMMING.md`](FTDI-PROGRAMMING.md) | FT231XS EEPROM and CBUS production profile |
 | [`FILES.md`](FILES.md) | Design-file locations and naming rules |
 
 ## Recommended Reading Order

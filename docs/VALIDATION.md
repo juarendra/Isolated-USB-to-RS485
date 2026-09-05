@@ -12,6 +12,23 @@ Complete these checks on the exact assembled revision before selling or publishi
 - Confirm MAX485 `DE` and `/RE` direction timing.
 - Confirm no unintended copper, mounting hardware, or shield path bridges the isolation barrier.
 
+## RS485 Protection Characterization
+
+Record measured values against the exact component datasheets and test fixture:
+
+| Measurement | Test condition | Result |
+|---|---|---|
+| `A` to `GNDA` withstand/clamp | Defined surge or fault waveform | TBD |
+| `B` to `GNDA` withstand/clamp | Defined surge or fault waveform | TBD |
+| `A` to `B` withstand/clamp | Defined differential waveform | TBD |
+| TBU trip current/time | Defined source impedance and pulse | TBD |
+| TBU recovery behavior | After pulse and after fault removal | TBD |
+| TISP trigger/clamp behavior | Defined pulse and return path | TBD |
+| SM712 clamp voltage | Defined current and pulse duration | TBD |
+| MAX485 short-circuit duration | A/B shorted under controlled supply | TBD |
+
+Do not enter a voltage or time as a product rating merely because it appears in a component datasheet. The board rating is limited by the complete current path: connector, copper, TBU, TISP, TVS, ground return, MAX485, spacing, and enclosure.
+
 ## Functional Checks
 
 - USB enumeration on supported operating systems.
