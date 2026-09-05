@@ -4,7 +4,6 @@ Complete these checks on the exact assembled revision before selling or publishi
 
 ## Electrical Checks
 
-- Check USB Type-C `CC1` and `CC2` pull-down implementation.
 - Measure USB-side to isolated-side resistance and insulation resistance.
 - Confirm isolated output voltage at minimum and maximum expected USB input.
 - Confirm output ripple and converter temperature under load.

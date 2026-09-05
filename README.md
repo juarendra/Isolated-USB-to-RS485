@@ -75,9 +75,7 @@ Detailed documentation is in [`docs/`](docs/).
 ## Important Limitations
 
 - This is a half-duplex RS485 hardware interface; it does not implement Modbus protocol in hardware.
-- USB-C CC pull-down implementation must be checked on the assembled revision before claiming universal USB-C host compatibility.
 - RS485 termination, bias values, isolation spacing, and protection ratings require system-level verification.
-- No IEC 61000 ESD, EFT, surge, or EMC compliance is claimed by this repository.
 - Cable length, baud rate, node count, and bus topology depend on the transceiver, cable, and installation.
 - Custom FTDI VID/PID programming requires valid ownership/licensing and separate production configuration.
 
